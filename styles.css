@@ -6,7 +6,7 @@
   --text-color: #333; /* Dark gray for text */
   --card-background: #fff; /* White for cards */
   --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
-  --highlight-color: #e74c3c; /* Red for highlighting main points */
+  --highlight-color: #333; /* Red for highlighting main points */
 }
 
 body {
