@@ -156,26 +156,27 @@ strong {
   font-weight: 600;
 }
 
-/* Job and Project Details */
-.job, .project-card {
-  margin-bottom: 30px;
+/* Download Resume Button */
+.download-resume {
+  margin-top: 20px;
 }
 
-.job h3, .project-card h3 {
-  color: var(--secondary-color);
-  margin-bottom: 10px;
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
 
-.job p, .project-card p {
-  margin: 5px 0;
+.resume-button:hover {
+  background-color: #2980b9;
 }
 
-.job ul, .project-card ul {
-  padding-left: 20px;
-}
-
-.job ul li, .project-card ul li {
-  margin-bottom: 10px;
+.resume-button i {
+  margin-right: 10px;
 }
 
 /* Footer */
