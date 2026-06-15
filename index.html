@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naga Deepthi Valluru | Principal Enterprise Architect</title>
+  <meta name="description" content="Naga Deepthi Valluru – Principal Enterprise Architect & Full Stack Integration Lead with 20 years of experience in aviation & aerospace technology. Open to international opportunities." />
+  <meta name="keywords" content="Enterprise Architect, MuleSoft, Azure, Full Stack, Integration, Boeing, Aviation, API, Cloud, DevSecOps" />
+  <meta name="author" content="Naga Deepthi Valluru" />
+  <meta property="og:title" content="Naga Deepthi Valluru | Principal Enterprise Architect" />
+  <meta property="og:description" content="20 years of expertise in enterprise architecture, cloud integration, and aviation technology." />
+  <meta property="og:type" content="website" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Particle Canvas -->
+<canvas id="particleCanvas"></canvas>
+
+<!-- Scroll Progress Bar -->
+<div id="scrollProgress" class="scroll-progress"></div>
+
+<!-- Navigation -->
+<nav id="navbar" class="navbar">
+  <div class="nav-container">
+    <a href="#hero" class="nav-brand">
+      <span class="brand-initials">NDV</span>
+      <span class="brand-name">Naga Deepthi</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about"      class="nav-link">About</a>
+      <a href="#skills"     class="nav-link">Skills</a>
+      <a href="#projects"   class="nav-link">Projects</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#terminal-section" class="nav-link">AI Console</a>
+      <a href="#contact"    class="nav-link">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="ai-nav-btn" id="aiNavBtn" title="Ask AI about profile">
+        <i class="fas fa-robot"></i> Ask AI
+      </button>
+      <button id="themeToggle" class="theme-btn" title="Toggle theme" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <a href="deepthi.docx" download class="download-btn" title="Download Resume" aria-label="Download Resume">
+        <i class="fas fa-download"></i><span>Resume</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+  <div class="hero-bg-glow glow-1"></div>
+  <div class="hero-bg-glow glow-2"></div>
+  <div class="hero-bg-glow glow-3"></div>
+
+  <div class="hero-container">
+    <div class="hero-badge reveal">
+      <span class="badge-dot pulse"></span>
+      <span>Open to International Opportunities</span>
+    </div>
+
+    <h1 class="hero-name reveal">
+      <span class="name-line">Naga Deepthi</span>
+      <span class="name-line gradient-text">Valluru</span>
+    </h1>
+
+    <div class="hero-title reveal">
+      <span class="title-prefix">Principal</span>
+      <span class="title-rotating" id="rotatingTitle">Enterprise Architect</span>
+    </div>
+
+    <p class="hero-bio reveal" id="heroBio">
+      Visionary Enterprise Architect with <strong>20+ years</strong> of excellence in aviation &amp; aerospace technology.
+      Spearheading cloud modernization, high-throughput integration ecosystems, and global delivery for
+      <strong>The Boeing Company</strong> and elite international airline networks.
+    </p>
+
+    <div class="hero-chips reveal" id="heroChips">
+      <span class="chip"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</span>
+      <span class="chip"><i class="fas fa-envelope"></i> nagadeepthi.t@gmail.com</span>
+      <span class="chip"><i class="fas fa-plane"></i> Aviation &amp; Aerospace</span>
+      <span class="chip"><i class="fas fa-globe"></i> Open to Relocation</span>
+      <span class="chip"><i class="fas fa-award"></i> 20 Years Experience</span>
+    </div>
+
+    <div class="hero-actions reveal">
+      <a href="#contact" class="btn btn-primary" id="connectBtn">
+        <i class="fas fa-paper-plane"></i> Connect With Me
+      </a>
+      <a href="#terminal-section" class="btn btn-secondary" id="aiConsoleBtn">
+        <i class="fas fa-terminal"></i> Ask AI Console
+      </a>
+      <a href="https://www.linkedin.com/in/nagadeepthi-tholu-707a192a8/" target="_blank" class="linkedin-badge" aria-label="LinkedIn Profile">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="btn btn-icon" aria-label="LinkedIn" id="linkedinBtn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-scroll-indicator">
+    <div class="scroll-mouse">
+      <div class="scroll-wheel"></div>
+    </div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Stats / About Section -->
+<section id="about" class="stats-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Live Profile Snapshot</span>
+      <h2 class="section-title">Impact at Scale</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+        <div class="stat-number" data-target="20">0</div><div class="stat-suffix">+</div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon"><i class="fas fa-plane-departure"></i></div>
+        <div class="stat-number" data-target="60">0</div><div class="stat-suffix">+</div>
+        <div class="stat-label">Global Airlines Integrated</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon"><i class="fas fa-layer-group"></i></div>
+        <div class="stat-number" data-target="15">0</div><div class="stat-suffix">+</div>
+        <div class="stat-label">Enterprise Projects Delivered</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-icon"><i class="fas fa-cloud"></i></div>
+        <div class="stat-number" data-target="3">0</div><div class="stat-suffix"></div>
+        <div class="stat-label">Cloud Platforms Mastered</div>
+      </div>
+    </div>
+
+    <!-- Executive Summary Card -->
+    <div class="summary-card reveal">
+      <div class="summary-icon"><i class="fas fa-user-tie"></i></div>
+      <div class="summary-content">
+        <h3>Executive Summary</h3>
+        <p>Visionary and highly accomplished Principal Enterprise Architect and Certified MuleSoft Developer with <strong>20 years</strong> of distinguished experience (2006–Present) designing, architecting, and deploying complex, enterprise-scale full-stack applications and integration ecosystems. Deep domain expertise in the aviation and aerospace sectors, leading critical data-acquisition, compliance, and reliability frameworks for <strong>The Boeing Company</strong> and their elite global airline network.</p>
+        <p>A recognized expert in steering large-scale legacy-to-cloud modernizations, designing high-throughput event-driven microservices, and orchestrating seamless cross-border delivery models. Adept at managing multi-million-dollar technical portfolios, establishing robust CI/CD and DevSecOps pipelines, and translating high-level business vision into resilient, cloud-native architectures.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- AI Tailor / Persona Switcher Section -->
+<section id="persona" class="persona-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">AI Role Tailor</span>
+      <h2 class="section-title">View Profile As</h2>
+      <p class="section-subtitle">AI-powered persona lens — tailor this profile to match your hiring perspective</p>
+    </div>
+    <div class="persona-grid reveal">
+      <button class="persona-btn active" data-persona="architect" id="personaArchitect">
+        <i class="fas fa-drafting-compass"></i>
+        <span>Enterprise Architect</span>
+      </button>
+      <button class="persona-btn" data-persona="cloud" id="personaCloud">
+        <i class="fas fa-cloud"></i>
+        <span>Cloud / DevSecOps</span>
+      </button>
+      <button class="persona-btn" data-persona="integration" id="personaIntegration">
+        <i class="fas fa-plug"></i>
+        <span>Integration Lead</span>
+      </button>
+      <button class="persona-btn" data-persona="fullstack" id="personaFullStack">
+        <i class="fas fa-code"></i>
+        <span>Full Stack Lead</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Technical Expertise</span>
+      <h2 class="section-title">Core Competencies</h2>
+    </div>
+
+    <div class="competencies-list reveal">
+      <div class="competency-item">
+        <div class="competency-icon"><i class="fas fa-sitemap"></i></div>
+        <div class="competency-body">
+          <h4>Enterprise Architecture</h4>
+          <p>N-Tier &amp; Microservices Architectures, Serverless Computing, Distributed Systems, High-Performance Client/Server Systems.</p>
+        </div>
+      </div>
+      <div class="competency-item">
+        <div class="competency-icon"><i class="fas fa-shield-halved"></i></div>
+        <div class="competency-body">
+          <h4>Cloud &amp; DevSecOps Implementation</h4>
+          <p>Microsoft Azure Ecosystem (Functions, Cosmos DB, Azure SQL), AWS (EC2, S3, Lambda), GCP, Coverity Vulnerability Management.</p>
+        </div>
+      </div>
+      <div class="competency-item">
+        <div class="competency-icon"><i class="fas fa-network-wired"></i></div>
+        <div class="competency-body">
+          <h4>Enterprise Integration &amp; API Management</h4>
+          <p>MuleSoft ESB, Anypoint Platform, DataWeave, Hybrid Cloud Ingestion, RabbitMQ, Message Queuing.</p>
+        </div>
+      </div>
+      <div class="competency-item">
+        <div class="competency-icon"><i class="fas fa-database"></i></div>
+        <div class="competency-body">
+          <h4>Data Engineering &amp; Analytics at Scale</h4>
+          <p>Advanced ETL/ELT Ingestion Pipelines, Power BI, SSIS/SSRS, Teradata Big Data Environments, SQL Server.</p>
+        </div>
+      </div>
+      <div class="competency-item">
+        <div class="competency-icon"><i class="fas fa-earth-americas"></i></div>
+        <div class="competency-body">
+          <h4>Global Delivery &amp; Governance</h4>
+          <p>Onsite-Offshore Resource Management, Strategic Client Relations, SAFe Agile Framework, Budget &amp; Enhancement Governance.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tech Matrix Tabs -->
+    <div class="skills-tabs-container reveal">
+      <div class="skills-tabs" id="skillsTabs" role="tablist">
+        <button class="skill-tab active" data-tab="frameworks"  role="tab" id="tabFrameworks">Frameworks</button>
+        <button class="skill-tab"        data-tab="languages"   role="tab" id="tabLanguages">Languages</button>
+        <button class="skill-tab"        data-tab="frontend"    role="tab" id="tabFrontend">Frontend</button>
+        <button class="skill-tab"        data-tab="data"        role="tab" id="tabData">Data &amp; DB</button>
+        <button class="skill-tab"        data-tab="middleware"  role="tab" id="tabMiddleware">Middleware</button>
+        <button class="skill-tab"        data-tab="devops"      role="tab" id="tabDevops">DevOps</button>
+      </div>
+
+      <div class="skills-panel active" id="panelFrameworks" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">.NET Core</span>
+          <span class="skill-tag expert">ASP.NET MVC</span>
+          <span class="skill-tag expert">Web API</span>
+          <span class="skill-tag expert">Spring Boot</span>
+          <span class="skill-tag advanced">WCF</span>
+          <span class="skill-tag advanced">Spring Cloud</span>
+          <span class="skill-tag expert">MuleSoft ESB</span>
+          <span class="skill-tag expert">Anypoint Platform</span>
+        </div>
+      </div>
+      <div class="skills-panel" id="panelLanguages" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">C# .NET</span>
+          <span class="skill-tag expert">Java</span>
+          <span class="skill-tag advanced">Python</span>
+          <span class="skill-tag advanced">VB.NET</span>
+          <span class="skill-tag expert">DataWeave</span>
+          <span class="skill-tag advanced">LINQ</span>
+          <span class="skill-tag intermediate">XML/XSD</span>
+        </div>
+      </div>
+      <div class="skills-panel" id="panelFrontend" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">ReactJS</span>
+          <span class="skill-tag expert">AngularJS</span>
+          <span class="skill-tag advanced">JavaScript</span>
+          <span class="skill-tag advanced">HTML5</span>
+          <span class="skill-tag advanced">CSS3</span>
+          <span class="skill-tag intermediate">jQuery</span>
+          <span class="skill-tag advanced">Bootstrap</span>
+        </div>
+      </div>
+      <div class="skills-panel" id="panelData" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">Teradata</span>
+          <span class="skill-tag expert">SQL Server</span>
+          <span class="skill-tag expert">Oracle</span>
+          <span class="skill-tag advanced">Snowflake</span>
+          <span class="skill-tag advanced">Cosmos DB</span>
+          <span class="skill-tag advanced">MongoDB</span>
+          <span class="skill-tag intermediate">DB2</span>
+          <span class="skill-tag advanced">SSIS/SSRS</span>
+          <span class="skill-tag intermediate">Power BI</span>
+        </div>
+      </div>
+      <div class="skills-panel" id="panelMiddleware" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">MuleSoft ESB</span>
+          <span class="skill-tag expert">RabbitMQ</span>
+          <span class="skill-tag expert">REST APIs</span>
+          <span class="skill-tag advanced">SOAP/WS</span>
+          <span class="skill-tag advanced">JWT Auth</span>
+          <span class="skill-tag advanced">Message Queuing</span>
+        </div>
+      </div>
+      <div class="skills-panel" id="panelDevops" role="tabpanel">
+        <div class="skill-tags">
+          <span class="skill-tag expert">Azure DevOps</span>
+          <span class="skill-tag expert">GitHub</span>
+          <span class="skill-tag advanced">AWS</span>
+          <span class="skill-tag advanced">Coverity</span>
+          <span class="skill-tag advanced">Postman</span>
+          <span class="skill-tag intermediate">SoapUI</span>
+          <span class="skill-tag advanced">TFS</span>
+          <span class="skill-tag intermediate">IIS 10.0</span>
+        </div>
+      </div>
+
+      <div class="skill-legend">
+        <span class="legend-item"><span class="skill-tag expert mini">Expert</span></span>
+        <span class="legend-item"><span class="skill-tag advanced mini">Advanced</span></span>
+        <span class="legend-item"><span class="skill-tag intermediate mini">Intermediate</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Certifications -->
+<section id="certs" class="certs-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Professional Credentials</span>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-logo azure-logo"><i class="fas fa-cloud"></i></div>
+        <div class="cert-body">
+          <h4>Microsoft Certified</h4>
+          <p class="cert-name">Azure Fundamentals (AZ-900)</p>
+          <span class="cert-date"><i class="fas fa-calendar"></i> May 2024</span>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo mulesoft-logo"><i class="fas fa-plug"></i></div>
+        <div class="cert-body">
+          <h4>Salesforce Certified</h4>
+          <p class="cert-name">MuleSoft Developer 1</p>
+          <span class="cert-date"><i class="fas fa-calendar"></i> May 2024</span>
+        </div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-logo safe-logo"><i class="fas fa-running"></i></div>
+        <div class="cert-body">
+          <h4>SAFe Certified</h4>
+          <p class="cert-name">SAFe Agilist Certification</p>
+          <span class="cert-date"><i class="fas fa-calendar"></i> 2020</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Landmark Deliveries</span>
+      <h2 class="section-title">Project Portfolio</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" id="proj1">
+        <div class="project-num">01</div>
+        <div class="project-header">
+          <h3>Boeing RDM Load Report API</h3>
+          <span class="project-period">Jan 2025 – Present</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Lead Enterprise Architect</p>
+        <p class="project-desc">Re-architected a mission-critical legacy .NET data ingestion ecosystem into a high-capacity MuleSoft Experience/System API framework. Handles heavy automated payload streams (&lt;10MB), dynamically evaluating schemas and business rules, routing data into Teradata master servers.</p>
+        <div class="project-tags">
+          <span class="proj-tag">MuleSoft</span>
+          <span class="proj-tag">Anypoint Studio</span>
+          <span class="proj-tag">CloudHub</span>
+          <span class="proj-tag">SQL Server</span>
+          <span class="proj-tag">Teradata</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" id="proj2">
+        <div class="project-num">02</div>
+        <div class="project-header">
+          <h3>Boeing SPEC2K Standard API Ecosystem</h3>
+          <span class="project-period">Aug 2023 – Dec 2024</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Principal Integration Architect</p>
+        <p class="project-desc">Designed advanced Experience, Process, and System APIs enabling global airline operators to stream multi-format flight diagnostic data compliant with ATA SPEC2000 standards. Introduced custom JSON-to-XML subscribers and massive payload-splitting APIs backed by Tableau Cloud analytics.</p>
+        <div class="project-tags">
+          <span class="proj-tag">MuleSoft Integration Cloud</span>
+          <span class="proj-tag">Message Queues</span>
+          <span class="proj-tag">Tableau Cloud</span>
+          <span class="proj-tag">XML</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" id="proj3">
+        <div class="project-num">03</div>
+        <div class="project-header">
+          <h3>Events Formatting Tool 2.0 (EFT 2.0)</h3>
+          <span class="project-period">Jan 2023 – Present</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Technical Architect &amp; Full Stack Lead</p>
+        <p class="project-desc">Enterprise-grade workflow enrichment system tracking Aircraft Schedule Interruptions. Engineered highly responsive UI widgets using ReactJS, backed by scalable .NET Core API and RabbitMQ microservices messaging fabric to parse and enrich massive datasets into Teradata regions.</p>
+        <div class="project-tags">
+          <span class="proj-tag">.NET Core</span>
+          <span class="proj-tag">ReactJS</span>
+          <span class="proj-tag">RabbitMQ</span>
+          <span class="proj-tag">SSIS</span>
+          <span class="proj-tag">Teradata</span>
+          <span class="proj-tag">Azure</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" id="proj4">
+        <div class="project-num">04</div>
+        <div class="project-header">
+          <h3>Boeing Data Ingestion Project (BDIP)</h3>
+          <span class="project-period">Aug 2021 – Aug 2023</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Senior Full Stack Architect</p>
+        <p class="project-desc">Built a centralized multi-format file ingestion platform mapping heterogeneous source files (XLSX, DAT, XML) into canonical database stores. Innovated an integrated pipeline to dynamically translate inbound technical data from Chinese to English before core ETL extraction steps.</p>
+        <div class="project-tags">
+          <span class="proj-tag">.NET Core</span>
+          <span class="proj-tag">ReactJS</span>
+          <span class="proj-tag">RabbitMQ</span>
+          <span class="proj-tag">SQL Server</span>
+          <span class="proj-tag">SSIS/SSRS</span>
+          <span class="proj-tag">AI Translation</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" id="proj5">
+        <div class="project-num">05</div>
+        <div class="project-header">
+          <h3>Boeing ISDP Web Adapter Framework</h3>
+          <span class="project-period">Jan 2018 – Jul 2021</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Lead Application Developer</p>
+        <p class="project-desc">Developed a unified web engine providing configurable, 24/7 automated data mapping across diverse airline maintenance databases (M&amp;E, TRAX, Maintenix, AMOS, SAP), translating multi-source reliability parameters into clean, compliant SPEC2000 XML format.</p>
+        <div class="project-tags">
+          <span class="proj-tag">Java</span>
+          <span class="proj-tag">MVC</span>
+          <span class="proj-tag">AngularJS</span>
+          <span class="proj-tag">XML/XSD</span>
+          <span class="proj-tag">SQL Server</span>
+          <span class="proj-tag">Teradata</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" id="proj6">
+        <div class="project-num">06</div>
+        <div class="project-header">
+          <h3>Global Airline Data Conversion Portfolio</h3>
+          <span class="project-period">Apr 2008 – May 2016</span>
+        </div>
+        <p class="project-role"><i class="fas fa-user-cog"></i> Onsite Technical Lead &amp; Systems Consultant</p>
+        <p class="project-desc">Managed a multi-million-dollar rolling portfolio deploying customized software adapters across dozens of international onsite locations. Interfaced with Oracle, SAP, DB2, Snowflake to extract fleet metrics and flight cycles, piping them securely into Boeing's primary data warehouses via MFTS.</p>
+        <div class="project-tags">
+          <span class="proj-tag">C# .NET</span>
+          <span class="proj-tag">Oracle</span>
+          <span class="proj-tag">SAP</span>
+          <span class="proj-tag">DB2</span>
+          <span class="proj-tag">Snowflake</span>
+          <span class="proj-tag">SSIS</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Experience Section -->
+<section id="experience" class="experience-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Career Journey</span>
+      <h2 class="section-title">Professional Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal" id="expCyient">
+        <div class="timeline-marker">
+          <div class="marker-dot"></div>
+          <div class="marker-line"></div>
+        </div>
+        <div class="timeline-content">
+          <div class="exp-header">
+            <div class="exp-title-group">
+              <h3>Principal Consultant</h3>
+              <p class="exp-subtitle">Enterprise Full Stack &amp; Integration Architect</p>
+            </div>
+            <span class="exp-date">2006 – Present</span>
+          </div>
+          <div class="exp-company">
+            <i class="fas fa-building"></i>
+            <strong>Cyient Inc, USA / Cyient Ltd, India</strong>
+            <span class="exp-client"><i class="fas fa-star"></i> Strategic Client: The Boeing Company</span>
+          </div>
+          <div class="exp-description">
+            <p>Provide high-level technical leadership, architectural governance, and cross-functional team direction for the Boeing Reliability Data Management (RDM) global portfolio. Oversee end-to-end SDLC frameworks, mitigate enterprise security vulnerabilities, and lead offshore delivery units to support complex operations for major international commercial carriers.</p>
+          </div>
+          <div class="exp-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-arrow-right"></i>
+              <span><strong>Legacy-to-Cloud Modernization:</strong> Spearheaded strategic migrations of legacy on-premises workloads into highly scalable Microsoft Azure and MuleSoft API architectures, dramatically reducing operational overhead and processing latencies.</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-arrow-right"></i>
+              <span><strong>Architectural Governance:</strong> Designed robust, secure N-Tier frameworks, implementing advanced serverless patterns (Azure Functions) and real-time MongoDB database triggers for immediate event-driven data streaming.</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-arrow-right"></i>
+              <span><strong>Global Carrier Integration:</strong> Architected automated data conversion platforms adopted by United Airlines, Singapore Airlines, LATAM, Lion Air, Malindo Air, and Norwegian Longhaul.</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-arrow-right"></i>
+              <span><strong>DevSecOps &amp; Code Quality:</strong> Owned application security posture through continuous vulnerability management via Coverity, defining strict unit-testing standards across .NET (NUnit) and MuleSoft (MUnit) tracks.</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-arrow-right"></i>
+              <span><strong>Executive Stakeholder Engagement:</strong> Served as primary technical point of contact for US Business Teams; managed corporate enhancement pipelines under SAFe Agile governance.</span>
+            </div>
+          </div>
+          <div class="exp-airlines">
+            <span class="airline-chip"><i class="fas fa-plane"></i> United Airlines</span>
+            <span class="airline-chip"><i class="fas fa-plane"></i> Singapore Airlines</span>
+            <span class="airline-chip"><i class="fas fa-plane"></i> LATAM</span>
+            <span class="airline-chip"><i class="fas fa-plane"></i> Lion Air</span>
+            <span class="airline-chip"><i class="fas fa-plane"></i> Malindo Air</span>
+            <span class="airline-chip"><i class="fas fa-plane"></i> Norwegian Longhaul</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Education Section -->
+<section id="education" class="education-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Academic Background</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="edu-card reveal" id="eduCard">
+      <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="edu-body">
+        <h3>Bachelor of Technology (B.Tech.)</h3>
+        <p class="edu-field">Computer Science and Engineering</p>
+        <p class="edu-institution">J.B. Institute of Engineering and Technology</p>
+        <p class="edu-affiliation">Affiliated with Jawaharlal Nehru Technological University (JNTU), Hyderabad, India</p>
+        <span class="edu-year"><i class="fas fa-calendar-check"></i> Graduated 2005</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- AI Terminal / Console Section -->
+<section id="terminal-section" class="terminal-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">AI-Powered Console</span>
+      <h2 class="section-title">Ask My Profile</h2>
+      <p class="section-subtitle">Chat with an AI trained on Naga Deepthi's profile. Ask anything about skills, projects, or experience.</p>
+    </div>
+
+    <div class="terminal-wrapper reveal" id="terminalWrapper">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <div class="t-dot t-dot-red"></div>
+          <div class="t-dot t-dot-yellow"></div>
+          <div class="t-dot t-dot-green"></div>
+        </div>
+        <div class="terminal-title">ndv-ai-console — profile-assistant v2.0</div>
+        <div class="terminal-status">
+          <div class="status-dot"></div>
+          <span>AI Online</span>
+        </div>
+      </div>
+
+      <div class="terminal-body" id="terminalBody">
+        <!-- Boot messages injected by JS -->
+      </div>
+
+      <div class="terminal-shortcuts">
+        <span class="shortcut-chip" data-query="What are your top skills?">skills</span>
+        <span class="shortcut-chip" data-query="Tell me about Boeing projects">boeing projects</span>
+        <span class="shortcut-chip" data-query="What certifications do you have?">certifications</span>
+        <span class="shortcut-chip" data-query="Are you open to relocation?">relocation</span>
+        <span class="shortcut-chip" data-query="What cloud platforms do you use?">cloud expertise</span>
+        <span class="shortcut-chip" data-query="Tell me about MuleSoft experience">mulesoft</span>
+        <span class="shortcut-chip" data-query="What is your experience with airlines?">airlines</span>
+        <span class="shortcut-chip" data-query="help">help</span>
+      </div>
+
+      <div class="terminal-input-row">
+        <span class="terminal-input-prompt">visitor@ndv:~$</span>
+        <input type="text" id="terminalInput" class="terminal-input" placeholder="Type a question about Naga Deepthi's profile..." autocomplete="off" />
+        <button class="terminal-send-btn" id="terminalSend">
+          <i class="fas fa-paper-plane"></i> Send
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="glow-divider"></div>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="section-container">
+    <div class="section-header reveal">
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">International Opportunities</h2>
+      <p class="section-subtitle">Open to senior-level roles globally — aviation, cloud architecture, enterprise integration.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card reveal" id="contactEmail">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <h4>Email</h4>
+        <a href="mailto:nagadeepthi.t@gmail.com">nagadeepthi.t@gmail.com</a>
+      </div>
+      <div class="contact-card reveal" id="contactLocation">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <h4>Location</h4>
+        <p>Hyderabad, India<br/><em>Open to International Relocation</em></p>
+      </div>
+      <div class="contact-card reveal" id="contactLinkedIn">
+        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/nagadeepthi-tholu-707a192a8/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+      <div class="contact-card reveal" id="contactAvailability">
+        <div class="contact-icon"><i class="fas fa-globe"></i></div>
+        <h4>Availability</h4>
+        <p>Senior / Principal Roles<br/><em>USA · Europe · APAC · Middle East</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <span class="brand-initials">NDV</span>
+      <div>
+        <p class="footer-name">Naga Deepthi Valluru</p>
+        <p class="footer-title">Principal Enterprise Architect &amp; Integration Lead</p>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#hero">Top</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#terminal-section">AI Console</a>
+      <a href="#contact">Contact</a>
+      <a href="https://www.linkedin.com/in/nagadeepthi-tholu-707a192a8/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="footer-copy">© 2025 Naga Deepthi Valluru · Crafted with passion for excellence · Powered by AI</p>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ═══════════════════════════════════════
+     AI RECRUITER ASSISTANT CHAT WIDGET
+═══════════════════════════════════════ -->
+<div id="aiChatWidget" class="ai-chat-widget" aria-label="AI Recruiter Assistant">
+
+  <!-- Floating Trigger Button -->
+  <button class="ai-chat-fab" id="aiChatFab" aria-label="Open AI Recruiter Assistant" title="Ask AI Recruiter">
+    <div class="ai-fab-inner">
+      <i class="fas fa-robot ai-fab-icon-open"></i>
+      <i class="fas fa-times ai-fab-icon-close"></i>
+    </div>
+    <span class="ai-fab-label">AI Recruiter</span>
+    <div class="ai-fab-pulse"></div>
+    <div class="ai-fab-notification" id="aiFabNotif">1</div>
+  </button>
+
+  <!-- Chat Panel -->
+  <div class="ai-chat-panel" id="aiChatPanel" role="dialog" aria-label="AI Recruiter Assistant">
+
+    <!-- Panel Header -->
+    <div class="ai-chat-header">
+      <div class="ai-chat-header-info">
+        <div class="ai-avatar-wrap">
+          <div class="ai-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <span class="ai-avatar-online"></span>
+        </div>
+        <div class="ai-header-text">
+          <div class="ai-header-name">NDV Recruiter AI</div>
+          <div class="ai-header-status">
+            <span class="ai-status-dot"></span>
+            Always available · Instant answers
+          </div>
+        </div>
+      </div>
+      <div class="ai-chat-header-actions">
+        <button class="ai-header-btn" id="aiClearChat" title="Clear chat">
+          <i class="fas fa-trash-alt"></i>
+        </button>
+        <button class="ai-header-btn" id="aiCloseChat" title="Close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Quick Ask Chips -->
+    <div class="ai-quick-chips" id="aiQuickChips">
+      <button class="ai-qchip" data-q="What are her top skills?"><i class="fas fa-bolt"></i> Top Skills</button>
+      <button class="ai-qchip" data-q="Tell me about Boeing projects"><i class="fas fa-plane"></i> Boeing</button>
+      <button class="ai-qchip" data-q="Is she open to relocation?"><i class="fas fa-globe"></i> Relocation</button>
+      <button class="ai-qchip" data-q="What certifications does she hold?"><i class="fas fa-certificate"></i> Certs</button>
+      <button class="ai-qchip" data-q="MuleSoft and API integration experience"><i class="fas fa-plug"></i> MuleSoft</button>
+      <button class="ai-qchip" data-q="Cloud and DevSecOps expertise"><i class="fas fa-cloud"></i> Cloud</button>
+    </div>
+
+    <!-- Messages Container -->
+    <div class="ai-chat-messages" id="aiChatMessages">
+      <!-- Messages injected by JS -->
+    </div>
+
+    <!-- Input Area -->
+    <div class="ai-chat-input-area">
+      <div class="ai-input-row">
+        <input
+          type="text"
+          id="aiChatInput"
+          class="ai-chat-input"
+          placeholder="Ask anything about Naga Deepthi…"
+          autocomplete="off"
+          maxlength="300"
+        />
+        <button class="ai-send-btn" id="aiSendBtn" aria-label="Send message">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+      <div class="ai-input-footer">
+        <span><i class="fas fa-lock"></i> Private · Powered by Profile AI</span>
+        <span class="ai-char-count" id="aiCharCount">0/300</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AI Float Button (console scroll) -->
+<button class="ai-float-btn" id="aiFloatBtn" title="Open AI Terminal Console">
+  <i class="fas fa-terminal"></i> Console
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
