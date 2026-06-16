@@ -261,6 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'Program Analyst',
     'Integration Lead',
     'Full Stack Developer',
+    'Databricks Developer',
     'MuleSoft Specialist',
     'Cloud Specialist'
   ];
@@ -429,7 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Profile Knowledge Base ---
   const profileKB = {
     name:          'Naga Deepthi Valluru',
-    title:         'Senior Developer | Program Analyst | Integration Lead | Full Stack Developer',
+    title:         'Senior Developer | Program Analyst | Integration Lead | Full Stack Developer | Databricks Developer',
     email:         'nagadeepthi.t@gmail.com',
     location:      'Hyderabad, India',
     linkedin:      'https://www.linkedin.com/in/nagadeepthi-tholu-707a192a8/',
@@ -442,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
       frameworks:  ['.NET Core', 'ASP.NET MVC', 'Web API', 'Spring Boot', 'MuleSoft ESB', 'Anypoint Platform'],
       languages:   ['C# .NET', 'Java', 'Python', 'DataWeave', 'VB.NET', 'LINQ'],
       frontend:    ['ReactJS', 'AngularJS', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap'],
-      data:        ['Teradata', 'SQL Server', 'Oracle', 'Snowflake', 'Cosmos DB', 'MongoDB', 'SSIS/SSRS', 'Power BI'],
+      data:        ['Teradata', 'SQL Server', 'Oracle', 'Snowflake', 'Databricks', 'Cosmos DB', 'MongoDB', 'SSIS/SSRS', 'Power BI'],
       cloud:       ['Microsoft Azure (Functions, CosmosDB, Azure SQL)', 'AWS (EC2, S3, Lambda)', 'GCP', 'Azure DevOps'],
       middleware:  ['MuleSoft ESB', 'RabbitMQ', 'REST APIs', 'SOAP/WS', 'JWT Auth', 'Message Queuing'],
       devops:      ['Azure DevOps', 'GitHub', 'Coverity', 'TFS', 'Postman', 'SoapUI', 'CI/CD']
