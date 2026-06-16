@@ -478,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'dim',       text: '  experience        → Career timeline & highlights' },
         { type: 'dim',       text: '  education         → Academic background' },
         { type: 'dim',       text: '  contact           → Contact & LinkedIn details' },
-        { type: 'dim',       text: '  clear             → Clear terminal' },
+        { type: 'dim',       text: '  clear / cls       → Clear terminal' },
         { type: 'success',   text: '  Or ask any free-form question about the profile!' }
       ];
     }
