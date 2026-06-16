@@ -1,4 +1,4 @@
-# Naga Deepthi Valluru - Principal Enterprise Architect
+# Naga Deepthi Valluru - Databricks Developer
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fnagadeepthi-git.github.io%2Fdeepthi%2F)](https://nagadeepthi-git.github.io/deepthi/)
 
