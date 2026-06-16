@@ -665,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (type === 'user') {
       line.innerHTML = `
-        <span class="terminal-user">visitor</span>
+        <span class="terminal-user">recruiter</span>
         <span class="terminal-host">@ndv</span>
         <span class="terminal-prompt">:~$</span>
         <span class="terminal-text command">${escHtml(text)}</span>
